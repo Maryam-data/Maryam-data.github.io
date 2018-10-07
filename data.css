@@ -54,9 +54,9 @@ body {
   table {
     /* border-collapse: collapse; */
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-     width: 85%; 
+      width:85%; 
     margin-left: 7%;
-    margin-right: 7%;
+    margin-right: 7%; 
     margin-block-start: 2%; 
     
 
@@ -91,10 +91,6 @@ tr:hover {background-color: rgb(131, 130, 130);}
     padding: 0%;
 
     
-  }
-  .container{
-    width:590px;
-   
   }
   .post{
     margin-left:20px;

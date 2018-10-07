@@ -30,7 +30,7 @@
             </ul>
         </div>
     </nav>
-    <main>
+   
     <div class='container' >
             <div class="row"  id="data-table">
                 <div class=" firstcol">
@@ -43,9 +43,9 @@
                             <div class="sexrow "> 
                                     <script src="http://d3js.org/d3.v3.min.js"></script>
                                     <script type="text/javascript"charset="utf-8">
-                                       d3.text("Resources/cities.csv", function(data) {
+                                       d3.text("cities.csv", function(data) {
                                            var parsedCSV = d3.csv.parseRows(data);
-                                           var container = d3.select("#data-table")
+                                           var container = d3.select(".container")
                                                .append("table")
                     
                                                .selectAll("tr")
@@ -64,7 +64,7 @@
               </div>
             </div>
     </div>
-    </main>
+    
     
 </body>
 </html>
