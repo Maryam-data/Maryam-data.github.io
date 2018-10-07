@@ -136,10 +136,10 @@ height:100%;
 
 /* media */
 @media (max-width:600px) {
-  /* .navbar { 
+  .navbar { 
     background: #21dada;
     margin-bottom: 0%; 
-  } */
+  }
   .navbar-right{
     background: white;
   }
