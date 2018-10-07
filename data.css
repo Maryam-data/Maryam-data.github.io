@@ -10,7 +10,6 @@ body {
   .navbar {
     padding: 0px;
     background: #fff;
-  
   }
 
   h2 {
@@ -40,7 +39,6 @@ body {
     color: white;
     font-size: x-large;
     font-family: "Times New Roman", times, serif;
-  
   }
   .active a {
     color: #000;
@@ -51,14 +49,11 @@ body {
     text-decoration: none;
   }
 
-
  th {
-    /* padding-top: 12px;
-    padding-bottom: 12px; */
-    text-align: left;
-    /* background-color:#21dada; */
     
+    text-align: left;  
 }
+
 td, th {
     /* border: 1px solid rgb(185, 181, 181); */
     padding: 8px;
@@ -67,23 +62,3 @@ td, th {
 tr:nth-child(even){background-color: #eeeded;}
 
 tr:hover {background-color: rgb(131, 130, 130);}
-
-/* .container-fluid{
-
- margin-left:10%;
- 
-}  */
-
-/* @media (max-width:600px) {
- 
-  .table{
-    background: white;
-    margin-left: 0%;
-    padding: 0%;
-
-    
-  }
-  .post{
-    margin-left:20px;
-  }
-} */
