@@ -62,3 +62,14 @@ td, th {
 tr:nth-child(even){background-color: #eeeded;}
 
 tr:hover {background-color: rgb(131, 130, 130);}
+
+
+/* media */
+@media (max-width:600px) {
+  .navbar { 
+    background: #21dada;
+    margin-bottom: 0%; 
+  }
+  .navbar-right{
+    background: white;
+  }
